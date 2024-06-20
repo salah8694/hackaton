@@ -1,0 +1,29 @@
+.object-detection {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .prediction-box {
+    position: absolute;
+    border: 2px solid red;
+    pointer-events: none;
+  }
+  
+  .prediction-box .box {
+    position: absolute;
+    border: 2px solid red;
+    background: rgba(255, 0, 0, 0.3);
+  }
+  
+  .prediction-box span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 2px;
+  }
+  
+  
